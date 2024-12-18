@@ -7,7 +7,7 @@ const Card = ({ name, address, img, title }) => {
     <div className={styles.card}>
       <h3>{title}</h3>
       <div className={styles.info}>
-        <img alt="coin" src={`src/assets/${img}.png`} />
+        <img alt="coin" src={`/${img}.png`} />
 
         <div className={styles.text}>
           <p>

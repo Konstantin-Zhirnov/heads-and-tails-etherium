@@ -25,7 +25,7 @@ const Coins = () => {
         htmlFor="Heads"
         className={`${styles.coin} ${players.heads?.name && !winner?._name && styles.disable}`}
       >
-        <img src="src/assets/heads.png" alt="Heads" />
+        <img src="/heads.png" alt="Heads" />
         <input
           id="Heads"
           type="radio"
@@ -39,7 +39,7 @@ const Coins = () => {
         htmlFor="Teils"
         className={`${styles.coin} ${players.tails?.name && !winner?._name && styles.disable}`}
       >
-        <img src="src/assets/tails.png" alt="Tails" />
+        <img src="/tails.png" alt="Tails" />
         <input
           id="Teils"
           type="radio"

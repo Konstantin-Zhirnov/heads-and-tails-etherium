@@ -2,7 +2,7 @@ import React from 'react'
 import { useShallow } from 'zustand/react/shallow'
 
 import { useStore } from '../store.js'
-import Logo from '../assets/logo.svg?react'
+import Logo from '../../public/logo.svg?react'
 
 import { ConnectButton } from './ConnectButton'
 

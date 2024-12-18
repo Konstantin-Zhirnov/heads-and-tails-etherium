@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Loader from '../assets/spinning.svg?react'
+import Loader from '../../public/spinning.svg?react'
 
 import styles from './LoadingButton.module.sass'
 
